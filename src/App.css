@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.color-primary{
+  color: #E6007A;
+}
+
+.border-color-primary{
+  border-color: #E6007A;
+}
+
+.border-color-white{
+  border-color: #ffffff;
+}
+
+.bg-pink{
+  background-color: #E6007A;
+  color: white;
+}
+
+.bg-gradient-pink{
+  background-image: linear-gradient(to bottom right, #E6007A, #a91b93);
+}
+
+.line{
+  flex: 1;
+  height: 3px;
+  background-color: #E6007A;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
